@@ -84,6 +84,10 @@ const Navbar = () => {
         <li className="p-2 md:p-2 hover:bg-gray-900 hover:rounded hover:text-white  text-lg duration-500" >
           About Us
         </li></Link> 
+        <Link href="/about/management">
+        <li className="p-2 md:p-2 hover:bg-gray-900 hover:rounded hover:text-white text-lg duration-500" >
+          Our Team
+        </li></Link>
      <Link href="/about/certificates">
         <li className="p-2 md:p-2 hover:bg-gray-900 hover:rounded hover:text-white  text-lg duration-500" >
           Certificates
@@ -92,17 +96,14 @@ const Navbar = () => {
         <li className="p-2 md:p-2 hover:bg-gray-900 hover:rounded hover:text-white  text-lg duration-500" >
           Mission Vission
         </li></Link> 
-        <Link href="/about/management">
-        <li className="p-2 md:p-2 hover:bg-gray-900 hover:rounded hover:text-white text-lg duration-500" >
-          Management Team
-        </li></Link> 
+         
         <Link href="/about/mdmessage">
         <li className="p-2 md:p-2 hover:bg-gray-900 hover:rounded hover:text-white text-lg duration-500" >
           Managing Directors Message
         </li></Link> 
    </ul>
         </li>
-        <Link href="/services">
+        <Link href="/#services">
         <li className="p-2 md:p-0 hover:bg-gray-900 hover:rounded hover:text-white md:hover:text-xl md:hover:bg-transparent md:hover:text-blue-600 text-lg duration-500" >
           Services
         </li></Link>

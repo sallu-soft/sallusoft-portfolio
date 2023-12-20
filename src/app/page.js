@@ -175,6 +175,8 @@ import ServicesMain from '@/components/ServicesMain';
 import CustomDevelopment from '@/components/CustomDevelopment';
 import Projects from '@/components/Projects';
 import ServicesSection from '@/components/ServicesSection';
+import WhyChooseUs from '@/components/WhyChooseUs';
+import CoreValues from '@/components/CoreValues';
 
 
 const tw = Titillium_Web({ subsets: ['latin'] ,weight: '700' });
@@ -290,6 +292,9 @@ const Home  = async () =>{
     <div className=" bg-white">
       <Projects/>
     </div>
+    <CoreValues/>
+    <WhyChooseUs/>
+
      {/* {serviceData && <ServicesMain serviceData={serviceData}/>}
      {homeAboutData && <AboutUs data={homeAboutData} />} */}
         {/* {missionvisionData && <div className="min-h-[70vh] ">
