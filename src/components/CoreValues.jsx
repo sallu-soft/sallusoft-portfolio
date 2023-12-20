@@ -32,7 +32,7 @@ const CoreValues = () => {
       <FaLaptopCode className="w-18 h-18 text-6xl text-green-900 font-bold"/>
         <h3 className="text-lg font-bold text-gray-900">Quality</h3>
         <p className="mt-2 text-gray-600">
-          We are committed to delivering high-quality work that meets or exceeds our clients' expectations.
+          We are committed to delivering high-quality work that meets or exceeds our clients&apos expectations.
         </p>
       </div>
     </div>
